@@ -1,0 +1,82 @@
+.gitignore:
+  type: "file"
+  content: ".gitignore"
+
+.buf.gen.yaml:
+  type: "file"
+  content: ".buf.gen.yaml"
+
+buf.work.yaml:
+  type: "file"
+  content: "buf.work.yaml"
+  
+README.md:
+  type: "file"
+  content: "README.md"
+  
+.golangci.yaml:
+  type: "file"
+  content: ".golangci.yaml"
+  
+mockery.yaml:
+  type: "file"
+  content: "mockery.yaml"
+  
+Dockerfile:
+  type: "file"
+  content: "Dockerfile"
+  
+.dockerignore:
+  type: "file"
+  content: ".dockerignore"
+  
+tools.go:
+  type: "file"
+  content: "tools.go"
+  
+
+api:
+  type: "folder"
+  handlers:
+    type: "folder"
+    routes.go:
+      type: "file"
+
+cmd:
+  type: "folder"
+
+docs:
+  type: "folder"
+
+config:
+  type: "folder"
+
+deploy:
+  type: "folder"
+
+internal:
+  type: "folder"
+
+pkg:
+  type: "folder"
+
+tests:
+  type: "folder"
+
+proto:
+  type: "folder"
+
+local:
+  type: "folder"
+
+assets:
+  type: "folder"
+
+mocks:
+  type: "folder"
+
+.github:
+  type: "folder"
+
+Makefile:
+  type: "folder"
