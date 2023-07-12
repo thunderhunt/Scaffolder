@@ -2,12 +2,6 @@ import yaml
 import os
 import argparse
 
-
-
-
-
-# print(folder_structure)
-
 def create_folder_structure(folder_structure, parent_path=''):
     for key, value in folder_structure.items():
         if isinstance(value, dict):
