@@ -55,7 +55,7 @@ To generate the project structure using the provided configuration file, follow 
 
 ### Folder Structure
 
-The generated project structure will follow the following layout:
+The generated project structure will follow the following layout based on the supplied YAML Configuration. It can be updated:
 
 ```
 - .gitignore
